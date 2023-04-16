@@ -9,19 +9,6 @@
 
 ?>
 
-<?php
-    include_once('../config.php');
-
-    $sql_6 = "SELECT SUM(peso) as pesototal FROM ingredientes";
-    $sql_6 = $conexao->query($sql_6);
-    $row = $sql_6->fetch_assoc();
-    $soma = $row['pesototal'];
-    $soma_peso = number_format($soma, 3, '.', '');
-    $peso = 0.500 - $soma_peso;
-    $peso = number_format($peso, 3, '.', '');
-?>
-
-
 <table class="table" id="table_view_acrescimo">
     <thead>
         <tr>

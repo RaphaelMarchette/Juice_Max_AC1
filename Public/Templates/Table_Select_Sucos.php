@@ -1,4 +1,3 @@
-
 <?php
     include_once('../config.php');
 
@@ -15,13 +14,12 @@
 
     $result = $conexao->query($sql);
 
-
     $table_Select = 'select_sucos';
     $table_Insert = 'view_suco';
 
 ?>
 
-<div class="box-search">
+    <div class="box-search">
         <input type="search" class="form-control w-25" placeholder="Pesquisar" id="pesquisar">
         <a onclick="searchData()" id="btn-pesquisar" >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">

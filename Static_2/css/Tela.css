@@ -98,6 +98,8 @@ a{
     left: 0rem;
     width: 100vw;
     height: 5rem;
+    text-align: center;
+    color: white;
 }
 
 #bt_pedir{
@@ -137,8 +139,6 @@ a{
     background-color: dodgerblue;
 }
 
-
-
 #bt_fazer_pedido{
     background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
     width: 30rem;
@@ -156,4 +156,30 @@ a{
 
 #bt_fazer_pedido:hover{
     background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+.box_entrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 4rem 3rem 4rem 3rem;
+}
+
+#bt_entrar{
+    color: white;
+    border: 0.2rem solid dodgerblue;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 3.2rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+#bt_entrar:hover{
+    background-color: dodgerblue;
 }

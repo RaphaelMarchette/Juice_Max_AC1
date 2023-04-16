@@ -1,15 +1,12 @@
 <?php
-    $table_Select = 'Select_preferencias';
-    $table_Insert = 'view_preferencia';
-?>
-
-
-<?php
     include_once('../config.php');
 
     $sql = "SELECT * FROM Select_preferencias ";
 
     $result = $conexao->query($sql);
+
+    $table_Select = 'Select_preferencias';
+    $table_Insert = 'view_preferencia';
 
 ?>
 

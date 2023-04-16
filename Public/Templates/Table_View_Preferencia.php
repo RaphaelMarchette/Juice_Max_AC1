@@ -1,14 +1,11 @@
 <?php
-    $table_Delete = 'view_preferencia';
-?>
-
-<?php
     include_once('../config.php');
 
     $sql = "SELECT * FROM view_preferencia WHERE id=1";
 
     $result = $conexao->query($sql);
 
+    $table_Delete = 'view_preferencia';
 ?>
 
 
