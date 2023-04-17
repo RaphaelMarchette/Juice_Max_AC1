@@ -1,26 +1,12 @@
 <?php
-    if(!empty($_GET['id']))
-    {
-        include_once('../config.php');
-
-        $id_2 = $_GET['id'];
-
-        $table_2 = $_GET['table'];
-        
-    }
-    $table_Delete = 'view_suco ';
-
-?>
-
-<?php
     include_once('../config.php');
 
     $sql = "SELECT * FROM view_suco WHERE id=1";
 
     $result = $conexao->query($sql);
 
+    $table_Delete = 'view_suco ';
 ?>
-
 
 <table class="table" id="table_view_suco">
     <thead>
@@ -51,7 +37,7 @@
                     </a>
                     </td>";
                 echo "</tr>";
-        }
+            }
             ?>
     </tbody>
 </table>
