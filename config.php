@@ -3,7 +3,7 @@
     $dbHost = 'Localhost';
     $dbUsername = 'root';
     $dbPassword = '';
-    $dbName = 'JuiceMax_ac_1';
+    $dbName = 'bd_juice_max';
     
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 

@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `juicemax_ac_1` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */;
-USE `juicemax_ac_1`;
+CREATE DATABASE  IF NOT EXISTS `bd_juice_max` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */;
+USE `bd_juice_max`;
 -- MySQL dump 10.13  Distrib 5.7.24, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: juicemax_ac_1
+-- Host: 127.0.0.1    Database: bd_juice_max
 -- ------------------------------------------------------
 -- Server version	5.5.5-10.4.27-MariaDB
 
